@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    position: relative;
+    min-height: 200vh;
+    background-color: lightgrey;
+}
+
+h1{
+    margin: 20px 0px 5px 50px;
+}
+
+.top, .main, .smoke, .window, .door{
+    position: fixed;
+}
+
+.top{
+    width: 300px;
+    height: 105px;
+    background-color: crimson;
+    border-radius: 150px 150px 0px 0px;
+    top: 125px;
+    left: 150px;
+    border: 1.5px solid black;
+}
+
+.main{
+    width: 255px;
+    height: 195px;
+    background-color: bisque;
+    top: 230px;
+    left: 172.5px;
+    border: 1.5px solid black;
+}
+
+.smoke{
+    width: 22.5px;
+    height: 67.5px;
+    background-color: darkcyan;
+    top: 110px;
+    left: 382.5px;
+    border: 1.5px solid black;
+}
+
+.window{
+    width: 75px;
+    height: 75px;
+    background-color: cyan;
+    border-radius: 15px;
+    top: 283px;
+    left: 195px;
+    border: 1.5px solid darkblue;
+    box-sizing: content-box;
+}
+
+.door{
+    width: 75px;
+    height: 150px;
+    background-color: saddlebrown;
+    top: 274.5px;
+    left: 322.5px;
+    border: 1.5px solid black;
+}
